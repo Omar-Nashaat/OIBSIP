@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Temp Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container w-50">
+        <div class="row">
+            <h1 class="text-center mb-4 mt-4">Temperature Converter</h1>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="degreeInput" class="form-label">Degrees</label>
+                    <input type="number" class="form-control" id="degreeInput">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label for="choice" class="mb-2">Type</label>
+                    <select class="form-select" aria-label="Default select example" id="choice">
+                        <option>Fahrenheit</option>
+                        <option>Celsius</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div>
+                    <label for="resultField" class="mb-2">Result</label>
+                    <input type="number" class="form-control" id="resultField">
+                    <button class="btn btn-primary w-100 text-white mt-4" id="convertBtn">Convert</button>
+                    <button class="btn btn-danger w-100 text-white mt-1" id="clearForm">Clear</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
