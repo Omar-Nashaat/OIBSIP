@@ -1,0 +1,151 @@
+body {
+    background-color: #221F1F;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    padding-top: 50px;
+}
+
+.text h1 {
+    color: #A6BBCC;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.text h4 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contentImg img {
+    border-radius: 15px;
+}
+
+.container {
+    width: 70%;
+}
+
+.text button {
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #221F1F;
+    color: white;
+    font-size: 22px;
+}
+
+.navbar i {
+    font-size: 38px;
+    transition: all ease-in-out 0.2s;
+}
+
+#linked i:hover {
+    color: #0077b5;
+}
+
+#git i:hover {
+    color: rgb(252, 110, 110);
+}
+
+#facebook i:hover {
+    color: #316FF6;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.about {
+    margin-top: 120px;
+}
+
+.about h2 {
+    font-size: 75px;
+    font-weight: bold;
+    color: #A6BBCC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.after-title {
+    height: 5px;
+    width: 80%;
+    background-color: #A6BBCC;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.about p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h5 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.about h5 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.about h4 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h6 {
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: underline;
+}
+
+.layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+}
+
+.withoutLayer:hover .layer {
+    opacity: 1;
+}
+
+.layer i {
+    position: relative;
+    top: 50%;
+    font-size: 32px;
+    margin: 5px;
+}
+
+.about-icons i {
+    font-size: 84px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.footer-left-content i {
+    font-size: 42px;
+    margin: 4px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
